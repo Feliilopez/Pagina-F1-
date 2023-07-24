@@ -1,0 +1,148 @@
+body {
+    margin: 80px 0 0 20px;
+    padding: 0;
+    font-family: "formula1-regular",sans-serif, Arial;
+    background-color: #111;
+    transition: all 0.5s ease;
+    color: #fff;
+}
+@font-face {
+    font-family: "formula1-bold";
+    src: url("Fuentes/Formula1-Bold.otf");
+}
+@font-face {
+    font-family: "formula1-regular";
+    src: url("Fuentes/Formula1-Regular.otf");
+}
+@font-face {
+    font-family: "formula1-wide";
+    src: url("Fuentes/Formula1-Wide.otf");
+}
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #111;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 57px;
+    width: 100%;
+    transition: all 0.5s ease;
+    border-bottom: 3px solid #fe1801;
+
+}
+
+.logo-principal img {
+    height: 80px; 
+
+}
+
+.titulo {
+    font-family: "formula1-wide";
+    font-size: 35px;
+    color: #fff;
+    margin: auto;
+    transition: color 0.5s ease;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a div { 
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.tema {
+    background-image: url("Imagenes/Logo-Sol.png");
+}
+
+.perfil {
+    width: 55px;
+    background-image: url("Imagenes/Logo-Casco-Blanco.png");
+}
+
+.config {
+    background-image: url("Imagenes/Logo-Tuerca-Blanca.png");
+}
+.aside {
+    position: fixed;
+    top: 80px;
+    left: -185px;
+    width: 200px;
+    height: 100%;
+    background-color: #111;
+    transition: left 0.3s ease,background-color 0.5s ease,color 0.5s ease;
+    display: flex;
+    justify-content: space-between;
+    border-right: 3px solid #fe1801 ;
+    color: #fff;
+    overflow: hidden;
+    font-family: "formula1-bold";
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+  font-size: 17px;
+
+}
+.hvr {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 15px;
+    right: 0;
+    align-items: center;
+}
+.flecha {
+    margin: 3px;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("Imagenes/Logo-Flecha-Blanca-Der.png");
+    transition: all 0.3s ease;
+}
+.temporadas {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    padding: 5px;
+    left: 20px;
+    text-decoration: none;
+    font-family: "formula1-regular";
+    color: inherit;
+
+
+}
+aside ul li ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+}
